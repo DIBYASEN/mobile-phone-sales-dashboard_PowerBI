@@ -65,10 +65,6 @@ Average Sales = AVERAGE(Sales[Total Sales])
 
 ---
 
-### 2️⃣ Fix **Repository Structure**
-Replace your repository structure section with this:
-
-```markdown
 ## 📁 Repository Structure
 ```text
 mobile-phone-sales-dashboard/
@@ -83,8 +79,9 @@ mobile-phone-sales-dashboard/
 │   └── dashboard_screenshot.png
 │── README.md
 
+---
 
-🚀 Conclusion
+## 🚀 Conclusion
 This project demonstrates practical data analytics skills including data modeling, DAX calculations, and business-focused dashboard design using Power BI. It is suitable for showcasing entry-level Data Analyst capabilities.
 
 👤 Author
