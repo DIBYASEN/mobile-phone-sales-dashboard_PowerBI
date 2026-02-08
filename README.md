@@ -82,4 +82,4 @@ This project demonstrates practical data analytics skills including data modelin
 👤 Author
 Dibya Sen Jal  
 Aspiring Data Analyst  
-🔗 LinkedIn: https://www.linkedin.com/
+🔗 LinkedIn: https://www.linkedin.com/in/dibya-s-1715821a7/
