@@ -62,25 +62,6 @@ Total Quantity = SUM(Sales[Units Sold])
 Transactions = DISTINCTCOUNT(Sales[Transaction ID])
 Average Sales = AVERAGE(Sales[Total Sales])
 
-
----
-
-## 📁 Repository Structure
-```text
-mobile-phone-sales-dashboard/
-│── Dataset/
-│   ├── January_23.xlsx
-│   ├── February_23.xlsx
-│   ├── March_23.xlsx
-│   └── April_23.xlsx
-│── Dashboard/
-│   └── Mobile_Sales_Dashboard.pbix
-│── Images/
-│   └── dashboard_screenshot.png
-│── README.md
-
----
-
 ## 🚀 Conclusion
 This project demonstrates practical data analytics skills including data modeling, DAX calculations, and business-focused dashboard design using Power BI. It is suitable for showcasing entry-level Data Analyst capabilities.
 
