@@ -67,10 +67,13 @@ mobile-phone-sales-dashboard/
 │   ├── February_23.xlsx
 │   ├── March_23.xlsx
 │   └── April_23.xlsx
+
 │── Dashboard/
 │   └── Mobile_Sales_Dashboard.pbix
+
 │── Images/
 │   └── dashboard_screenshot.png
+
 │── README.md
 
 🚀 Conclusion
