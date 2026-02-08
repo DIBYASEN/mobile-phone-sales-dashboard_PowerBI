@@ -1,107 +1,64 @@
-###📊 Mobile Phone Sales Dashboard (Power BI)###
-📌 Project Overview
+📊 Mobile Phone Sales Dashboard (Power BI)
 
-This project is an interactive Power BI dashboard built to analyze mobile phone sales data across different cities, brands, payment methods, and time periods.
-The goal is to help stakeholders understand sales performance, customer behavior, and product trends through clear visual insights.
+📌 Project Overview
+This project is an interactive Power BI dashboard designed to analyze mobile phone sales data across different cities, brands, payment methods, and time periods. The dashboard provides insights into sales performance, customer preferences, and product trends to support data-driven decision making.
 
 🎯 Objectives
-
-Analyze total sales, quantity sold, and number of transactions
-
-Identify top-performing mobile brands and models
-
-Understand customer payment preferences
-
-Track daily and monthly sales trends
-
-Compare city-wise sales performance
+- 📈 Analyze total sales, total quantity sold, and number of transactions
+- 📱 Identify top-performing mobile brands and models
+- 💳 Understand customer payment method preferences
+- 📅 Track daily and monthly sales trends
+- 🏙 Compare city-wise sales performance
 
 🛠 Tools & Technologies Used
-
-Power BI – Data modeling, DAX, and visualization
-
-Microsoft Excel – Raw data storage and preprocessing
-
-DAX – Measures and calculated KPIs
+- 📊 Power BI: Data modeling, DAX measures, and interactive visualizations
+- 📁 Microsoft Excel: Data source and preprocessing
+- 🧮 DAX: Used for calculated measures and KPIs
 
 📂 Dataset Description
+The dataset consists of monthly mobile phone sales data stored in Excel files:
+- January_23.xlsx
+- February_23.xlsx
+- March_23.xlsx
+- April_23.xlsx
 
-The dataset consists of monthly mobile sales data stored in Excel files:
+🧾 Key Columns
+- Transaction ID
+- Date
+- City
+- Brand
+- Mobile Model
+- Units Sold
+- Price per Unit
+- Total Sales
+- Payment Method
+- Customer Rating ⭐
 
-January 2023
+📊 Key KPIs
+- 💰 Total Sales
+- 📦 Total Quantity Sold
+- 🔁 Total Transactions
+- 📉 Average Sales Value
 
-February 2023
-
-March 2023
-
-April 2023
-
-Key columns include:
-
-Transaction ID
-
-Date
-
-City
-
-Brand
-
-Mobile Model
-
-Units Sold
-
-Price per Unit
-
-Total Sales
-
-Payment Method
-
-Customer Rating
-
-📈 Key KPIs
-
-Total Sales
-
-Total Quantity Sold
-
-Total Transactions
-
-Average Sales Value
-
-📊 Dashboard Features
-
-📅 Month-wise slicer for time-based analysis
-
-🏙 City-wise sales visualization using map
-
-📱 Brand & mobile model performance comparison
-
-💳 Payment method distribution (UPI, Credit Card, Debit Card, Cash)
-
-📈 Daily sales and quantity trends
-
-⭐ Customer ratings analysis
+📈 Dashboard Features
+- 📅 Month-wise slicer for time-based analysis
+- 🗺 City-wise sales analysis using map visualization
+- 📱 Brand and mobile model performance comparison
+- 💳 Payment method distribution (UPI, Credit Card, Debit Card, Cash)
+- 📈 Daily sales and quantity trend analysis
+- ⭐ Customer ratings analysis
 
 🔍 Key Insights
-
-Certain metro cities contribute the highest sales volume
-
-UPI is the most preferred payment method
-
-Premium brands generate higher revenue despite lower quantities
-
-Sales show noticeable variation across days of the week
+- 🏙 Metro cities contribute the highest share of total sales
+- 💳 UPI is the most frequently used payment method
+- 📱 Certain premium brands generate higher revenue
+- 📆 Sales fluctuate across different days of the week
 
 🧮 DAX Measures Used
 Total Sales = SUM(Sales[Total Sales])
-
 Total Quantity = SUM(Sales[Units Sold])
-
 Transactions = DISTINCTCOUNT(Sales[Transaction ID])
-
 Average Sales = AVERAGE(Sales[Total Sales])
-
-🖼 Dashboard Screenshot
 
 📁 Repository Structure
 mobile-phone-sales-dashboard/
@@ -117,12 +74,9 @@ mobile-phone-sales-dashboard/
 │── README.md
 
 🚀 Conclusion
-
-This dashboard demonstrates practical skills in data cleaning, modeling, DAX calculations, and business-focused visualization using Power BI.
-It is designed to support data-driven decision-making for sales and marketing teams.
+This project demonstrates practical data analytics skills including data modeling, DAX calculations, and business-focused dashboard design using Power BI. It is suitable for showcasing entry-level Data Analyst capabilities.
 
 👤 Author
-
-Dibya Sen Jal
-Aspiring Data Analyst
-🔗 LinkedIn: (add your LinkedIn link here)
+Dibya Sen Jal  
+Aspiring Data Analyst  
+🔗 LinkedIn: https://www.linkedin.com/
