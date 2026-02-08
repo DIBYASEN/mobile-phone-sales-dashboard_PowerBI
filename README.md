@@ -41,6 +41,8 @@ The dataset consists of monthly mobile phone sales data stored in Excel files:
 - 📉 Average Sales Value
 
 📈 Dashboard Features
+![sales_dashboard](https://github.com/DIBYASEN/mobile-phone-sales-dashboard_PowerBI/blob/9d8464f4835b7dedc8f44f9b565528a1360396e9/Dashboard%20Screenshot/mobile%20sales%20dashboard%20crop.png)
+
 - 📅 Month-wise slicer for time-based analysis
 - 🗺 City-wise sales analysis using map visualization
 - 📱 Brand and mobile model performance comparison
